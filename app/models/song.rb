@@ -13,6 +13,7 @@ class Song < ActiveRecord::Base
     end
   end
 
-  def genre_name
+  def genre_name=(name)
+    self.genre = Genre.find_by(name: name)
   end
 end
