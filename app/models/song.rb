@@ -13,6 +13,6 @@ class Song < ActiveRecord::Base
     end
   end
 
-  def genre_id
+  def genre_name
   end
 end
