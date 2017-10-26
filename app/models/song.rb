@@ -22,4 +22,6 @@ class Song < ActiveRecord::Base
       self.genre.name
     end
   end
+
+  
 end
