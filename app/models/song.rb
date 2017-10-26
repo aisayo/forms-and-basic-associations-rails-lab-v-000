@@ -12,4 +12,7 @@ class Song < ActiveRecord::Base
       self.artist.name
     end
   end
+
+  def genre_id
+  end
 end
